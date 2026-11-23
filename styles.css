@@ -2920,3 +2920,25 @@ section {
 
 
 
+
+/* Client monogram badge (used when a client has no published logo) */
+.client-logo-initials {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--taupe);
+    color: var(--twine);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    object-fit: unset;
+}
+/* Dark backing for logos published only in white */
+.client-logo-dark {
+    background: var(--taupe);
+}
+.client-card .client-logo {
+    flex-shrink: 0;
+}
